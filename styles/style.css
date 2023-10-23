@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;400;500;600&family=Raleway:wght@300;400;500;600;700;800&family=Syncopate:wght@400;700&display=swap");
+
+:root {
+  --heading-font-family: "Syncopate", sans-serif;
+  --text-font-family: "Raleway", sans-serif;
+  --price-font-family: "Kodchasan", sans-serif;
+  --light-font-weight: 300;
+  --regular-font-weight: 400;
+  --medium-font-weight: 500;
+  --semibold-font-weight: 600;
+  --bold-font-weight: 700;
+  --extrabold-font-weight: 700;
+
+  --color-black: rgb(0, 0, 0);
+  --color-white: rgb(255, 255, 255);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,4 +22,8 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+button {
+  cursor: pointer;
 }
