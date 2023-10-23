@@ -11,6 +11,8 @@
   --bold-font-weight: 700;
   --extrabold-font-weight: 700;
 
+  --heading-font-size: 2.5rem;
+
   --color-black: rgb(0, 0, 0);
   --color-white: rgb(255, 255, 255);
 }
@@ -26,4 +28,37 @@ body {
 
 button {
   cursor: pointer;
+}
+
+.third-part {
+  font-family: var(--text-font-family);
+}
+
+.third-part > h1 {
+  font-family: var(--heading-font-family);
+  font-weight: var(--bold-font-weight);
+  font-size: var(--heading-font-size);
+  text-transform: uppercase;
+}
+
+/* Reviews */
+.review-section-container {
+  display: grid;
+  place-items: center;
+  padding: 47px 126px 50px 118px;
+  background-color: aqua;
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 42px;
+  row-gap: 50px;
+}
+
+.review-container > div {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  border-radius: 7px;
 }
