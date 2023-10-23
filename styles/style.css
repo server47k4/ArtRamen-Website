@@ -18,7 +18,9 @@
   --color-white: rgb(255, 255, 255);
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -63,12 +65,12 @@ main {
   margin: 2px 0;
 }
 
-.ingredient .img{
+.ingredient .img {
   margin: 5px auto;
   width: 50vw;
 }
 
-.ingredient .img img{
+.ingredient .img img {
   width: 70px;
 }
 
@@ -76,6 +78,7 @@ main {
   margin: 1em auto;
   width: 4.5vw;
 }
+
 /* MANUFACTURE SECTION ENDS */
 
 .third-part {
@@ -87,7 +90,7 @@ main {
   font-family: var(--text-font-family);
 }
 
-.review-section > h1 {
+.review-section>h1 {
   font-family: var(--heading-font-family);
   font-weight: var(--bold-font-weight);
   font-size: var(--heading-font-size);
@@ -105,7 +108,7 @@ main {
 
 .review-section-container::before {
   content: "";
-  background: url(/media/images/bg.png);
+  background: url(images/bg.png);
   background-size: cover;
   opacity: 0.5;
   position: absolute;
@@ -134,25 +137,25 @@ main {
 
 .individual-review-container div {
   margin-bottom: -15px;
-  display: flex; 
+  display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.individual-review-container  h1 {
+.individual-review-container h1 {
   font-size: 2rem;
   font-family: var(--heading-font-family);
   font-weight: var(--bold-font-weight);
   text-transform: uppercase;
 }
 
-.individual-review-container  p {
+.individual-review-container p {
   font-size: var(--paragraph-font-size);
   font-family: var(--text-font-family);
   font-weight: var(--medium-font-weight);
 }
 
-.individual-review-container div > img {
+.individual-review-container div>img {
   width: 50px;
 }
 
