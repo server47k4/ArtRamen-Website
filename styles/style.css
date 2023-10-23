@@ -30,6 +30,18 @@ button {
   cursor: pointer;
 }
 
+main{
+  height: 100%;
+  width: 100vw;
+}
+
+/* MANUFACTURE SECTION STARTS */
+.manufacture{
+  border: 1px solid black;
+ 
+}
+/* MANUFACTURE SECTION ENDS */
+
 .third-part {
   font-family: var(--text-font-family);
 }
