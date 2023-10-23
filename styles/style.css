@@ -30,23 +30,32 @@ button {
   cursor: pointer;
 }
 
-main{
+main {
   height: 100%;
   width: 100vw;
 }
 
-/* MANUFACTURE SECTION STARTS */
-.manufacture{
-  border: 1px solid black;
- 
+
+/* FIRST PART */
+
+nav h1 {
+  color: red;
+  border-color: black;
 }
+
+/* MANUFACTURE SECTION STARTS */
+.manufacture {
+  border: 1px solid black;
+
+}
+
 /* MANUFACTURE SECTION ENDS */
 
 .third-part {
   font-family: var(--text-font-family);
 }
 
-.third-part > h1 {
+.third-part>h1 {
   font-family: var(--heading-font-family);
   font-weight: var(--bold-font-weight);
   font-size: var(--heading-font-size);
@@ -69,7 +78,7 @@ main{
   row-gap: 50px;
 }
 
-.review-container > div {
+.review-container>div {
   background-color: var(--color-white);
   border: 1px solid var(--color-black);
   border-radius: 7px;
