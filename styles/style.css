@@ -12,6 +12,7 @@
   --extrabold-font-weight: 700;
 
   --heading-font-size: 2.5rem;
+  --subheading-font-size: 0.5em;
 
   --color-black: rgb(0, 0, 0);
   --color-white: rgb(255, 255, 255);
@@ -36,10 +37,52 @@ main{
 }
 
 /* MANUFACTURE SECTION STARTS */
-.manufacture{
+.Manufacture {
   border: 1px solid black;
- 
+  width: 90vw;
+  margin: 15px auto;
 }
+
+.Manufacture h1 {
+  font-family: var(--heading-font-family);
+  font-size: 1.5em;
+  font-weight: var(--bold-font-weight);
+}
+
+.Manufacture h3 {
+  font-family: var(--heading-font-family);
+  font-size: 1em;
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
+
+.Manufacture p {
+  font-family: var(--text-font-family);
+  font-size: 12px;
+  font-weight: var(--medium-font-weight);
+  margin: 2px 0;
+}
+
+.ingredient .img{
+  margin: 5px auto;
+  width: 50vw;
+}
+
+.ingredient .img img{
+  width: 70px;
+}
+
+.arrow {
+  margin: 1em auto;
+  width: 4.5vw;
+}
+
+
+
+
+
+
+
 /* MANUFACTURE SECTION ENDS */
 
 .third-part {
