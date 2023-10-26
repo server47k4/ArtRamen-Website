@@ -150,6 +150,7 @@ p {
   grid-column-gap: 32px;
   grid-row-gap: 35px;
   position: relative;
+  overflow: hidden;
 }
 
 .review-container::before {
@@ -173,6 +174,7 @@ p {
   transform: translateY(-50%);
   cursor: pointer;
   transition: color 0.2s;
+  z-index: 2;
 }
 
 .slider-arrow:hover {
@@ -180,11 +182,11 @@ p {
 }
 
 .left-arrow {
-  left: 20px;
+  left: 1.25rem;
 }
 
 .right-arrow {
-  right: 20px;
+  right: 1.25rem;
 }
 
 .dot-container {
@@ -295,13 +297,13 @@ p {
   .review-individual-container {
     position: absolute;
     top: 50%;
-    left: 130%;
+    left: 50%;
+    transform: translate(130%, -50%);
+    transition: transform .5s;
   }
   
   .active-review-container {
-    left: 50%;
     transform: translate(-50%, -50%);
-    transition: left 5s;
   }
 
   .invisible-container {
@@ -324,11 +326,26 @@ p {
     font-size: 1.75rem;
     margin: 1rem 1rem;
   }
+
+  .dot-container {
+    bottom: -.5rem;
+  }
+
+  .left-arrow {
+    left: .25rem;
+  }
+
+  .right-arrow {
+    right: 0rem;
+  }
+
+  .review-individual-container {
+    padding-inline: .5rem;
+  }
 }
 
 @media screen and (max-width: 365px) {
   .review-section > h1 {
-    font-size: 1.5rem;
     margin: 1rem 0.5rem;
   }
 }
