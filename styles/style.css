@@ -43,68 +43,128 @@ main {
   width: 100%;
   height: 100%;
   margin: 15px auto; 
-  position: relative;
+  display: flex;
   border: 1px solid;
   position: relative;
+  font-size: 1rem;
 }
+
+.Manufacture h1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+}
+
+.illustration img {
+  width: 70%;
+  opacity: 0.4;
+}
+
+.Manufacture .illustration-1 {
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+
+.Manufacture .illustration-2 {
+  position: absolute;
+  bottom: 0;
+  right: -100px;
+  transform: rotate(-9.118deg);
+}
+
 
 .Manufacture h3 {
   font-family: var(--heading-font-family);
-  font-size: 1.2vw;
-  margin: 2em 35px 0em 35px;
+  font-size: 1em;
+  margin: 2em 2em 0em;
 }
 
 .Manufacture p {
   font-family: var(--text-font-family);
-  font-size: 1.2vw;
+  font-size: var(--paragraph-font-size);
   font-weight: var(--medium-font-weight);
-  margin: 7px 35px;
-  width: 40ch;
+  margin: 1em 2em;
 }
 
-.broth{
+.flex-container {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5em 0;
+}
+
+/* -- BROTH START -- */
+.broth {
+  margin: 4em auto 12em;
+  width: 100%;
+}
+
+.Manufacture .broth .img {
+  width: 207px;
+  margin: 2em auto;
+}
+
+.Manufacture .broth .img img {
   margin: 0 auto;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
+/* -- BROTH ENDS -- */
 
-
+/* -- NOODLES START -- */
 .noodles {
-  margin: 0 35px;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 2em auto;
+  width: 100%;
 }
 
+.Manufacture .noodles .img {
+  margin: 0 auto;
+  width: 45%;
+}
+/* -- NOODLES ENDS -- */
+
+/* -- TOPPING STARTS -- */
 .toppings {
   margin: 0 auto;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
 }
+
 .Manufacture .toppings .img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
+  width: 90%;
 }
+/* -- TOPPING ENDS -- */
 
+/* -- RESULT -- */
 .result{
-  margin: 0 35px 0 0;
-  width: 30%;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  position: absolute;
-  top: 200px;
-  right: 0vw;
+  width: 100%;
+  margin: 4em auto;
+}
+.result .img {
+  width: 100%;
 }
 
 .result img {
-  width: 20vw;
+  width: 225px;
+}
+
+.result-arrow {
+  transform: rotate(-15.71deg);
+}
+
+/* -- RESULT ENDS -- */
+
+.big-arrow img {
+  width: 150px;
 }
 
 .arrow {
@@ -279,3 +339,115 @@ main {
   font-size: 2.5rem;
   margin-left: -7px;
 }
+
+@media (max-width: 800px) {
+
+  .Manufacture {
+    width: 100%;
+    height: 100%;
+    margin: 15px auto; 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    position: relative;
+    font-size: 1rem;
+  }
+
+  .Manufacture .illustration {
+    display: none;
+  }
+
+  .Manufacture .big-arrow {
+    display: none;
+  }
+
+  .Manufacture::before {
+    content: "";
+    background: url(/images/bg.png);
+    background-size: cover;
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .flex-container{
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .flex-container-1{
+    order: 2;
+  } 
+
+  .flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-top: 7em;
+  }
+
+  .flex-container-3 {
+    order: 3;
+  }
+
+  .ingredient {
+    margin: 1em auto;
+  }
+
+  .ingredient .img {
+    margin: 5px auto;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Manufacture .ingredient .img img {
+    width: 70px;
+  }
+  
+  .result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .result .img-result {
+    width: 225px;
+    height: 217px;
+    margin: 0 auto; 
+  }
+  
+  .result .img-result img {
+    width: 225px;
+    height: 217px;
+    object-fit: cover;
+  }
+
+  /* .flex-container{
+    flex-direction: column-reverse;
+    border: 1px solid;
+    margin: 1em auto;
+    width: 70%;
+  }
+  .noodles {
+    border: 1px solid;
+    flex-direction: column-reverse;
+  } */
+
+  .arrow {
+    display: block;
+  }
+
+  
+
+  }
+
+  
