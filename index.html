@@ -1,100 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<!-- Fontawesome CDN-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- Remixicons CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
-  integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- CSS -->
-<link rel="stylesheet" href="styles/style.css" />
-<!-- JAVASCRIPT -->
-<script src="JS/app.js" defer></script>
-<!-- FAVICON -->
-<link rel="icon" href="icons/ramen.png" />
-<title>ArtRamen</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<body>
-  <main>
-    <!-- FIRST PART -->
-    <nav>
-      <h1>JUST TESTING</h1>
-    </nav>
-    <!-- SECOND PART-->
-    <section class="Manufacture">
-      <h1> how is it made?</h1>
-      <div class="ingredient">
-        <div class="img">
-          <img src="images\icons\broth.png">
-          <img src="images\icons\vegetables.png">
-        </div>
-        <h3>broth brilliance</h3>
-        <p>We simmer top-notch ingredients with love, creating a rich, flavorful broth that's the heart of our ramen.
-        </p>
-      </div>
+    <!-- Fontawesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Remixicons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- JAVASCRIPT -->
+    <script src="JS/app.js" defer></script>
+    <!-- FAVICON -->
+    <link rel="icon" href="icons/ramen.png" />
+    <title>ArtRamen</title>
+  </head>
+  <body>
+    <main>
+      <!-- FIRST PART -->
+      <nav>
+        <h1>JUST TESTING</h1>
+      </nav>
+      <!-- SECOND PART-->
+      <section class="Manufacture">
+        <h1>how is it made?</h1>
 
-      <div class="arrow">
-        <img src="images\icons\arrow.png">
-      </div>
+        <figure class="illustration-1 illustration">
+          <img src="images\illustration1.png" />
+        </figure>
 
-      <div class="ingredient">
-        <div class="img">
-          <img src="images\icons\noodles.png">
-        </div>
-        <h3>Noodle magic</h3>
-        <p>Our handmade noodles are like little works of art. We stretch, roll, and cut them with precision to ensure the perfect texture.</p>
-      </div>
+        <article class="flex-container flex-container-1">
+          <figure class="big-arrow">
+            <img src="images\arrow1.png" />
+          </figure>
 
-      <div class="arrow">
-        <img src="images\icons\arrow.png">
-      </div>
+          <figure class="arrow">
+            <img src="images\icons\arrow.png" />
+          </figure>
 
-      <div class="ingredient">
-        <div class="img">
-          <img src="images\icons\toppings.png">
-          <img src="images\icons\topping2.png">
-          <img src="images\icons\toppings3.png">
-        </div>
-        <h3>toppings Galore</h3>
-        <p>We play with an array of toppings, from tender chicken to perfectly soft-boiled eggs, adding a fun twist to the classic.</p>
-      </div>
+          <section class="ingredient noodles">
+            <h3>Noodle magic</h3>
+            <p>
+              Our handmade noodles are like little works of art. We stretch,
+              roll, and cut them with precision to ensure the perfect texture.
+            </p>
+            <figure class="img">
+              <img src="images\icons\noodles.png" />
+            </figure>
+          </section>
 
-      <div class="arrow">
-        <img src="images\icons\arrow.png">
-      </div>
+          <figure class="big-arrow">
+            <img src="images\arrow2.png" />
+          </figure>
+        </article>
 
-      <div class="result">
-        <div class="img-result">
-          <img src="images\img.png">
-        </div>
-        <h3>Bon Appetite!</h3>
-      </div>
+        <article class="flex-container flex-container-2">
+          <section class="ingredient broth">
+            <h3>broth brilliance</h3>
+            <p>
+              We simmer top-notch ingredients with love, creating a rich,
+              flavorful broth that's the heart of our ramen.
+            </p>
 
-    </section>
-    <!-- -=Third Part=- -->
-    <!-- Review Section -->
-    <section class="review-section">
-      <h1>
-        What Generation says <br />
-        about us,
-      </h1>
-      <div class="review-section-container">
+            <figure class="img">
+              <img src="images\icons\broth.png" />
+              <img src="images\icons\vegetables.png" />
+            </figure>
+          </section>
+
+          <figure class="arrow">
+            <img src="images\icons\arrow.png" />
+          </figure>
+
+          <section class="ingredient toppings">
+            <h3>toppings Galore</h3>
+            <p>
+              We play with an array of toppings, from tender chicken to
+              perfectly soft-boiled eggs, adding a fun twist to the classic.
+            </p>
+
+            <figure class="img">
+              <img src="images\icons\toppings.png" />
+              <img src="images\icons\topping2.png" />
+              <img src="images\icons\toppings3.png" />
+            </figure>
+          </section>
+
+          <figure class="arrow">
+            <img src="images\icons\arrow.png" />
+          </figure>
+        </article>
+
+        <article class="flex-container flex-container-3">
+          <section class="result">
+            <figure class="img-result">
+              <img src="images\img.png" />
+            </figure>
+            <h3>Bon Appetite!</h3>
+          </section>
+
+          <figure class="big-arrow result-arrow">
+            <img src="images\arrow3.png" />
+          </figure>
+        </article>
+        <figure class="illustration-2 illustration">
+          <img src="images\illustration4.png" />
+        </figure>
+      </section>
+      <!-- -=========Third Part=========- -->
+      <!-- Review Section -->
+      <section class="review-section">
+        <h1>What Generation says about us,</h1>
         <div class="review-container">
-          <div class="individual-review-container">
-            <div>
-              <img src="images/icons/ramen.png" />
-              <h1>QIRAT</h1>
+          <!-- Arrows and Dots For The Slider -->
+          <i class="ri-arrow-left-s-line left-arrow slider-arrow"></i>
+          <i class="ri-arrow-right-s-line right-arrow slider-arrow"></i>
+          <div class="dot-container">
+            <div class="dot active-dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <div class="review-individual-container active-review-container">
+            <div class="review-ramen-name-container">
+              <img
+                src="images/bowl1.png"
+                alt="ramen-image-inside-the-review"
+                loading="lazy"
+              />
+              <h2>QIRAT</h2>
             </div>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-half-fill"></i>
+            <div class="review-star-container">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
             <p>
               ArtRamen is a true gem in the ramen scene. As a vegetarian, I
               appreciate their commitment to offering options for all diets.
@@ -103,50 +162,88 @@
               unwind.
             </p>
           </div>
-          <div class="individual-review-container">
-            <div>
-              <img src="images/icons/ramen.png" />
-              <h1>kim</h1>
+          <div class="review-individual-container">
+            <div class="review-ramen-name-container">
+              <img
+                src="images/pfp.png"
+                alt="ramen-image-inside-the-review"
+                loading="lazy"
+              />
+              <h2>Kim</h2>
             </div>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
+            <div class="review-star-container">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
             <p>
-              I'm a ramen enthusiast, and ArtRamen exceeded my expectations. The
-              attention to detail in every aspect of their ramen is impressive.
-              The broth had layers of flavor that kept me coming back for more,
-              and the handmade noodles were spot on.
+              I'm a ramen enthusiast, and [Ramen Shop Name] exceeded my
+              expectations. The attention to detail in every aspect of their
+              ramen is impressive. The broth had layers of flavor that kept me
+              coming back for more, and the handmade noodles were spot on.
             </p>
           </div>
-          <div class="individual-review-container">
-            <div>
-              <img src="images/icons/ramen.png" />
-              <h1>mia</h1>
+          <div class="review-individual-container">
+            <div class="review-ramen-name-container">
+              <img
+                src="images/bowl1.png"
+                alt="ramen-image-inside-the-review"
+                loading="lazy"
+              />
+              <h2>Mia</h2>
             </div>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
+            <div class="review-star-container">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
             <p>
-              I'm a ramen enthusiast, and ArtRamen exceeded my expectations. The
-              attention to detail in every aspect of their ramen is impressive.
-              The broth had layers of flavor that kept me coming back for more,
-              and the handmade noodles were spot on.
+              I'm a ramen enthusiast, and [Ramen Shop Name] exceeded my
+              expectations. The attention to detail in every aspect of their
+              ramen is impressive. The broth had layers of flavor that kept me
+              coming back for more, and the handmade noodles were spot on.
             </p>
           </div>
-          <div class="individual-review-container">
-            <div>
-              <img src="images/icons/ramen.png" />
-              <h1>zhan</h1>
+          <div class="review-individual-container">
+            <div class="review-ramen-name-container">
+              <img
+                src="images/pfp.png"
+                alt="ramen-image-inside-the-review"
+                loading="lazy"
+              />
+              <h2>Zhan</h2>
             </div>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-half-fill"></i>
+            <div class="review-star-container">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <p>
+              ArtRamen is a true gem in the ramen scene. As a vegetarian, I
+              appreciate their commitment to offering options for all diets.
+              Their miso ramen with tofu is a personal favorite—so hearty and
+              satisfying! The ambiance is serene, making it a wonderful place to
+              unwind.
+            </p>
+          </div>
+          <!-- Invisible container -->
+          <div class="review-individual-container invisible-container">
+            <div class="review-ramen-name-container">
+              <h2>jim</h2>
+            </div>
+            <div class="review-star-container">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
             <p>
               ArtRamen is a true gem in the ramen scene. As a vegetarian, I
               appreciate their commitment to offering options for all diets.
@@ -156,11 +253,85 @@
             </p>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- CALL TO ACTION SECTION
-    <section class="cta-section"></section>
-  </main> 
-</body>
+      </section>
+      <!-- Image Between The 2 Sections in mobile screens -->
+      <section id="image-mobile-screen-section">
+        <img src="images/illustration1.png" loading="lazy" />
+      </section>
+      <!-- Last Section -->
+      <section id="last-section">
+        <h1>say no More!</h1>
+        <div class="last-section-main-container">
+          <p>
+            Order Now and embark on a flavorful adventure that will tantalize
+            your taste buds and ignite your senses. Let's slurp, savor, and
+            celebrate ramen together!
+          </p>
+          <div class="images-main-container">
+            <div class="bowls-container">
+              <i class="fa-solid fa-chevron-left bowl-left-arrow"></i>
+              <div>
+                <div>
+                  <img src="images/bowl4.png" loading="lazy" />
+                </div>
+                <div>
+                  <img src="images/bowl3.png" loading="lazy" />
+                </div>
+                <div>
+                  <i class="fa-solid fa-circle-check"></i>
+                  <img src="images/bowl1.png" loading="lazy" />
+                </div>
+              </div>
+              <i class="fa-solid fa-chevron-right bowl-right-arrow"></i>
+            </div>
 
+            <div class="ramen-container">
+              <img
+                src="images/illustration3.png"
+                class="first-ramen-image"
+                loading="lazy"
+              />
+              <img
+                src="images/illustration4.png"
+                class="second-ramen-image"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="cart-container">
+              <img src="images/cart.png" />
+            </div>
+          </div>
+          <div class="faq-main-container">
+            <div class="faq-inner-container">
+              <h2>Faq</h2>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <p>How to Place Order?</p>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <p>How much time will delivery take?</p>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <p>What material do you use for packaging?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main-container">
+        <div>
+          <div class="footer-logo-container">
+            <img src="images/icons/logo.png" />
+            <h2>artramen</h2>
+          </div>
+          <ul class="ul-footer-container">
+            <li><a href="#">BLOGS</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT</a></li>
+          </ul>
+        </div>
+        <p>&copy; ArtRamen Since 2023</p>
+      </div>
+    </footer>
+  </body>
 </html>
