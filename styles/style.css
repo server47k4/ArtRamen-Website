@@ -722,6 +722,9 @@ p {
 }
 
 @media screen and (max-width: 400px) {
+  .footer-logo-container {
+    gap: .75rem;
+  }
   .footer-logo-container > h2 {
     font-size: 1.25rem;
   }
