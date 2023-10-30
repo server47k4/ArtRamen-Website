@@ -402,8 +402,8 @@ main {
     display: block;
     position: absolute;
     top: 25px;
-    right: 25px;
-    font-size: 1.2rem;
+    right: 0px;
+    font-size: 1rem;
   }
 
   .mobile-nav {
@@ -463,7 +463,7 @@ main {
   header {
     border-bottom: 1px solid black;
     position: relative;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     /* margin-bottom: 10rem; */
     display: flex;
@@ -547,7 +547,7 @@ main {
     height: auto;
     flex-wrap: nowrap;
     flex-wrap: wrap;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 0;
     padding-left: 1em;
     /* gap: 0; */
