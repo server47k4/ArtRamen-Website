@@ -22,70 +22,88 @@
 <body>
 
   <header>
-    <a href=""><img src="images/icons/logo.png" alt="">
-      <h1 id="logo">artramen</h1>
+    <a href="" id="logo-info"><img src="images/icons/logo.png" id="logo-icon" alt="">
+      <h1 id="logo-header">artramen</h1>
     </a>
-    <nav>
-
+    <i class="fa-solid fa-bars bar-icon"></i>
+    <nav class="mobile-nav">
+      <i class="fa-solid fa-x close-icon"></i>
+      <button class="btn nav-btn">about</button>
+      <button class="btn nav-btn">contact</button>
+      <button class="btn nav-btn">menu</button>
+      <button class="btn nav-btn">order</button>
+    </nav>
+    <nav class="desktop">
+      <img src="images/icons/search-icon.png" alt="" class="nav-icons search-icon">
+      <input type="text" placeholder="Search" class="search-box">
+      <img src="images/icons/phone-icon.png" alt="" class="nav-icons">
+      <img src="images/icons/info-icon.png" alt="" class="nav-icons">
+      <img src="images/icons/shopping-cart.png" alt="" class="nav-icons">
+      <div id="menu-button">
+        <img src="images/icons/menu.png" alt="" class="nav-icons">
+        <span>Menu</span>
+      </div>
     </nav>
   </header>
+
   <main>
-
-
-    <!-- SECOND PART-->
-    <!-- <section class="Manufacture">
-      <h1> how is it made?</h1>
-      <div class="ingredient">
-        <div class="img">
-          <img src="images\icons\broth.png">
-          <img src="images\icons\vegetables.png">
+    <section id="intro">
+      <img src="images/illustration1.png" class="illustrations illustration_1">
+      <img src="images/illustration2.png" class="illustrations illustration_2">
+      <img src="images/illustration3.png" class="illustrations illustration_3">
+      <img src="images/illustration1.png" class="illustrations illustration_4">
+      <div id="intro-wrapper">
+        <h1>Selling Ramen as an Art!</h1>
+        <p>Welcome to <span>ArtRamen</span>, where we transform the tradition into a culinary masterpiece. Our artful
+          approach to ramen
+          crafting takes this beloved dish to new heights, blending authentic flavors with visual delight. Join us in
+          Japan for an unforgettable experience where each bowl is a work of art waiting to be savored.</p>
+        <div id="intro-img-wrapper" class="intro-img-mobile">
+          <img src="images/noodles.png" alt="">
         </div>
-        <h3>broth brilliance</h3>
-        <p>We simmer top-notch ingredients with love, creating a rich, flavorful broth that's the heart of our ramen.
-        </p>
+        <button class="btn intro-btn">Buy a Ramen</button>
       </div>
-
-      <div class="arrow">
-        <img src="images\icons\arrow.png">
+      <div id="intro-img-wrapper" class="intro-img">
+        <img src="images/noodles.png" alt="">
       </div>
-
-      <div class="ingredient">
-        <div class="img">
-          <img src="images\icons\noodles.png">
-        </div>
-        <h3>Noodle magic</h3>
-        <p>Our handmade noodles are like little works of art. We stretch, roll, and cut them with precision to ensure the perfect texture.</p>
-      </div>
-
-      <div class="arrow">
-        <img src="images\icons\arrow.png">
-      </div>
-
-      <div class="ingredient">
-        <div class="img">
-          <img src="images\icons\toppings.png">
-          <img src="images\icons\topping2.png">
-          <img src="images\icons\toppings3.png">
-        </div>
-        <h3>toppings Galore</h3>
-        <p>We play with an array of toppings, from tender chicken to perfectly soft-boiled eggs, adding a fun twist to the classic.</p>
-      </div>
-
-      <div class="arrow">
-        <img src="images\icons\arrow.png">
-      </div>
-
-      <div class="result">
-        <div class="img-result">
-          <img src="images\img.png">
-        </div>
-        <h3>Bon Appetite!</h3>
-      </div>
-
     </section>
-    <!-- -=Third Part=- -->
-    <!-- Review Section -->
-    <!-- <section class="review-section">
+
+    <section id="popularity">
+      <h2>try the &#9733;popular ones.</h2>
+      <div id="popular-wrapper">
+        <article class="popular-cards">
+          <img src="images/bowl1.png" class="card-img">
+          <h3 class="card-title">samyang</h3>
+          <span class="card-price">$30.55</span>
+          <button class="btn card-btn">Order Now</button>
+        </article>
+        <article class="popular-cards">
+          <img src="images/bowl2.png" class="card-img">
+          <h3 class="card-title">ichiran</h3>
+          <span class="card-price">$30.55</span>
+          <button class="btn card-btn">Order Now</button>
+        </article>
+        <article class="popular-cards">
+          <img src="images/bowl3.png" class="card-img">
+          <h3 class="card-title">chicken</h3>
+          <span class="card-price">$30.55</span>
+          <button class="btn card-btn">Order Now</button>
+        </article>
+        <article class="popular-cards mobile-card">
+          <img src="images/bowl3.png" class="card-img">
+          <h3 class="card-title">chicken</h3>
+          <span class="card-price">$30.55</span>
+          <button class="btn card-btn">Order Now</button>
+        </article>
+      </div>
+
+
+
+  </main>
+  </section>
+  <!-- -=Third Part=- -->
+  <!-- Review Section -->
+  <!-- <section class="review-section">
       <h1>
         What Generation says <br />
         about us,
