@@ -55,4 +55,25 @@ leftArrow.addEventListener("click", () => {
     previousDot.classList.add("active-dot");
     previousReview.classList.add("active-review-container");
   }
+
+
+const searchButton = document.querySelector(".search-icon");
+const searchBox = document.querySelector(".search-box");
+
+searchButton.addEventListener("click", function () {
+  console.log(searchBox.classList)
+  searchBox.classList.toggle("search-box-active")
+});
+
+const barIcon = document.querySelector(".bar-icon");
+const closeIcon = document.querySelector(".close-icon");
+const mobileNav = document.querySelector(".mobile-nav");
+
+barIcon.addEventListener("click",()=>{
+  mobileNav.style.display ="flex";
+});
+
+closeIcon.addEventListener("click",()=>{
+  mobileNav.style.display="none";
+})
 });
