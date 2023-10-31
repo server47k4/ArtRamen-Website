@@ -82,7 +82,6 @@ p {
   height: 100%;
   margin: 15px auto;
   display: flex;
-  border: 1px solid;
   position: relative;
   font-size: 1rem;
 }
@@ -93,6 +92,7 @@ p {
   width: 100%;
   font-family: var(--heading-font-family);
   font-size: var(--heading-font-size);
+  margin: 1rem 7.875rem;
 }
 
 .illustration img {
@@ -218,12 +218,15 @@ p {
   .Manufacture {
     width: 100%;
     height: 100%;
-    margin: 15px auto;
+    margin: 3em auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
     position: relative;
     font-size: 1rem;
+  }
+
+  .Manufacture h1 {
+    margin-inline: 3rem;
   }
 
   .Manufacture .illustration {
