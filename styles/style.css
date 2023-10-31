@@ -1463,6 +1463,7 @@ main {
     align-items: center;
     justify-content: center;
     max-width: 600px;
+
     margin: 0 auto;
 
 
@@ -1473,7 +1474,10 @@ main {
 
   .popular-cards {
     height: auto;
-    width: 50%;
+    /* width: 50%; */
+    /* width: 250px; */
+    min-width: 230px;
+    margin-left: 10px;
     font-size: 1.3rem;
     /* flex: 1; */
     /* border: 1px solid red; */
@@ -1481,7 +1485,8 @@ main {
     gap: 1em;
     justify-content: center;
     align-items: center;
-    /* margin-left: 1em; */
+    /* margin-left: 0.5em; */
+    /* min-width: 50%; */
 
   }
 
