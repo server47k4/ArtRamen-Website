@@ -1266,6 +1266,25 @@ main {
     display: none;
   }
 
+  .illustration_1 {
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 325px;
+    transform: rotate(-20deg);
+    height: 7em;
+    width: 7em;
+
+  }
+
+  .illustration_3 {
+    display: block;
+    width: 5em;
+    height: 5em;
+    top: 280px;
+    left: -35px;
+  }
+
   nav {
     display: none;
   }
