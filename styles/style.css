@@ -1265,33 +1265,6 @@ main {
 
 @media only screen and (max-width: 770px) and (min-width: 431px) {
 
-  body {
-    /* background-color: red; */
-  }
-
-  .illustrations {
-    display: none;
-  }
-
-  .illustration_1 {
-    display: block;
-    position: absolute;
-    top: 75%;
-    left: 325px;
-    transform: rotate(-20deg);
-    height: 7em;
-    width: 7em;
-
-  }
-
-  .illustration_3 {
-    display: block;
-    width: 5em;
-    height: 5em;
-    top: 280px;
-    left: -35px;
-  }
-
   nav {
     display: none;
   }
@@ -1310,7 +1283,7 @@ main {
     background-color: white;
     border: 1.5px solid black;
 
-    width: 100%;
+    width: 50%;
     height: 350px;
     z-index: 99;
     position: absolute;
@@ -1321,6 +1294,8 @@ main {
     justify-content: center;
     gap: 2em;
     display: none;
+    top: 50px;
+    right: 0;
     /* height: 0; */
     /* transition: height ease 0.3ms; */
 
@@ -1381,19 +1356,34 @@ main {
     height: 2rem;
   }
 
-  main {
-    /* margin-top: 2em; */
-    /* border-right: 1px solid red; */
+  .illustrations {
+    display: none;
   }
 
+  .illustration_1 {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    right: 0;
+    transform: rotate(-20deg);
+    height: 10em;
+    width: 10em;
+
+  }
+
+  .illustration_3 {
+    display: block;
+    width: 8em;
+    height: 8em;
+    top: 280px;
+    left: -35px;
+  }
+
+
   #intro {
-    flex-direction: column;
-    align-items: flex-start;
     width: 100%;
-    padding: 0;
-    justify-content: space-around;
-    padding: 0 2em;
-    margin-bottom: 1em;
+    padding: 2em;
   }
 
   #intro-wrapper {
@@ -1411,27 +1401,42 @@ main {
     font-size: 0.9rem;
   }
 
+  #intro-wrapper button {
+    align-self: center;
+    font-size: 1rem;
+    max-width: 150px;
+  }
+
   .intro-img {
     display: none;
   }
 
   #intro-img-wrapper {
-    height: auto;
     width: 100%;
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 500px;
+    height: 100%;
+    height: auto;
 
+    margin: 0 auto;
+    /* padding-left: 5em; */
   }
 
   .intro-img-mobile {
     display: block;
 
+
   }
 
-  .intro-btn {
-    font-size: 1rem;
+  #intro-img-wrapper img {
+    /* height: 100%; */
+    width: 80%;
     margin: 0 auto;
+    max-width: 90%;
+    margin-left: 30px;
+    /* max-width: 60%; */
   }
+
+
 
   #popularity {
     height: auto;
@@ -1448,15 +1453,17 @@ main {
     /* flex-direction: column; */
 
     height: auto;
-    flex-wrap: nowrap;
+
     flex-wrap: wrap;
     /* border: 1px solid green; */
     padding: 0;
-    padding-left: 1em;
+    /* padding-left: 1em; */
     /* gap: 0; */
     row-gap: 2em;
     align-items: center;
     justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
 
 
     /* display: grid;
@@ -1467,13 +1474,13 @@ main {
   .popular-cards {
     height: auto;
     width: 50%;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     /* flex: 1; */
     /* border: 1px solid red; */
     padding: 0;
     gap: 1em;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     /* margin-left: 1em; */
 
   }
@@ -1490,7 +1497,7 @@ main {
 
   .card-btn {
     font-size: 1em;
-    max-width: 120px;
+    max-width: 200px;
 
   }
 
