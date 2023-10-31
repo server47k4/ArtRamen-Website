@@ -1125,6 +1125,9 @@ main {
   width: 50%;
   /* border: 1px solid red; */
   /* align-self: stretch; */
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
 #intro-wrapper h1 {
@@ -1142,6 +1145,11 @@ main {
   color: #EA543C;
   font-family: var(--heading-font-family);
   font-weight: 700;
+}
+
+
+#intro-wrapper button {
+  align-self: flex-start;
 }
 
 .intro-img-mobile {
@@ -1266,8 +1274,8 @@ main {
   .bar-icon {
     display: block;
     position: absolute;
-    top: 25px;
-    right: 0px;
+    top: 18px;
+    right: 13px;
     font-size: 1rem;
   }
 
@@ -1332,6 +1340,7 @@ main {
     margin: 0 auto;
     /* margin-bottom: 10rem; */
     display: flex;
+    margin-bottom: 1em;
 
   }
 
@@ -1348,7 +1357,7 @@ main {
 
   main {
     /* margin-top: 2em; */
-    border-right: 1px solid red;
+    /* border-right: 1px solid red; */
   }
 
   #intro {
@@ -1358,7 +1367,7 @@ main {
     padding: 0;
     justify-content: space-around;
     padding: 0 2em;
-
+    margin-bottom: 1em;
   }
 
   #intro-wrapper {
@@ -1399,6 +1408,7 @@ main {
   #popularity {
     height: auto;
     padding: 0;
+    margin-bottom: 4em;
   }
 
 
