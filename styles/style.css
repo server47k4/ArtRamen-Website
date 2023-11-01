@@ -331,7 +331,7 @@ p {
 
 .review-container::before {
   content: "";
-  background: url(/images/bg.png) no-repeat;
+  background: url(images/bg.png) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
