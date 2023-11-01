@@ -1578,7 +1578,7 @@ main {
 
   .mobile-nav::before {
     content: "";
-    background-image: url("C:/Users/zesha/OneDrive/Desktop/ArtRamen-Website/images/bg.png");
+    background-image: url("https://img.freepik.com/free-vector/asian-restaurant-mural-wallpaper_52683-48361.jpg?w=900&t=st=1698827104~exp=1698827704~hmac=5419a715ac486e1061c91d93195d6d06b20572eac7a6a07754f5b3fef24c3556");
     background-position-x: right;
     background-size: cover;
     width: 100%;
