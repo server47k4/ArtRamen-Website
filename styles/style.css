@@ -239,7 +239,7 @@ p {
 
   .Manufacture::before {
     content: "";
-    background: url(/images/bg.png);
+    background: url(https://pin.it/2PnE3G6);
     background-size: cover;
     opacity: 0.1;
     position: absolute;
@@ -331,7 +331,7 @@ p {
 
 .review-container::before {
   content: "";
-  background: url(/images/bg.png) no-repeat;
+  background: url(https://i.pinimg.com/originals/32/2d/72/322d72e7cdb07fbf20fcb32376f7d9f2.png) no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
@@ -1263,6 +1263,260 @@ main {
   max-width: 280px;
 }
 
+@media only screen and (max-width: 770px) and (min-width: 431px) {
+
+  nav {
+    display: none;
+  }
+
+
+  .bar-icon {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 13px;
+    font-size: 1rem;
+  }
+
+  .mobile-nav {
+
+    background-color: white;
+    border: 1.5px solid black;
+
+    width: 50%;
+    height: 350px;
+    z-index: 99;
+    position: absolute;
+    /* top: 70px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    display: none;
+    top: 50px;
+    right: 0;
+    /* height: 0; */
+    /* transition: height ease 0.3ms; */
+
+  }
+
+  .mobile-nav::before {
+    content: "";
+    background-image: url("C:/Users/zesha/OneDrive/Desktop/ArtRamen-Website/images/bg.png");
+    background-position-x: right;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 50;
+    /* Adjust the opacity as needed (0.5 is 50%) */
+  }
+
+  .close-icon {
+    display: block;
+    color: white;
+    background-color: black;
+    font-size: 1.3rem;
+    padding: 0.4em;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 50%;
+    z-index: 99;
+  }
+
+  .nav-btn {
+    font-size: 1rem;
+    z-index: 99;
+  }
+
+  header {
+    border-bottom: 1px solid black;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    /* margin-bottom: 10rem; */
+    display: flex;
+    margin-bottom: 1em;
+
+  }
+
+  #logo-info {
+    /* margin: 0; */
+    width: 100%;
+    font-size: 0.7rem;
+  }
+
+  #logo-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .illustrations {
+    display: none;
+  }
+
+  .illustration_1 {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    right: 0;
+    transform: rotate(-20deg);
+    height: 10em;
+    width: 10em;
+
+  }
+
+  .illustration_3 {
+    display: block;
+    width: 8em;
+    height: 8em;
+    top: 280px;
+    left: -35px;
+  }
+
+
+  #intro {
+    width: 100%;
+    padding: 2em;
+  }
+
+  #intro-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #intro-wrapper h1 {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  #intro-wrapper p {
+    font-size: 0.9rem;
+  }
+
+  #intro-wrapper button {
+    align-self: center;
+    font-size: 1rem;
+    max-width: 150px;
+  }
+
+  .intro-img {
+    display: none;
+  }
+
+  #intro-img-wrapper {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    height: auto;
+
+    margin: 0 auto;
+    /* padding-left: 5em; */
+  }
+
+  .intro-img-mobile {
+    display: block;
+
+
+  }
+
+  #intro-img-wrapper img {
+    /* height: 100%; */
+    width: 80%;
+    margin: 0 auto;
+    max-width: 90%;
+    margin-left: 30px;
+    /* max-width: 60%; */
+  }
+
+
+
+  #popularity {
+    height: auto;
+    padding: 0;
+    margin-bottom: 4em;
+  }
+
+
+  #popularity h2 {
+    font-size: 1.3rem;
+  }
+
+  #popular-wrapper {
+    /* flex-direction: column; */
+
+    height: auto;
+
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    padding: 0;
+    /* padding-left: 1em; */
+    /* gap: 0; */
+    row-gap: 2em;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+
+    margin: 0 auto;
+
+
+    /* display: grid;
+    grid-template-columns: repeat(10, 1fr); */
+
+  }
+
+  .popular-cards {
+    height: auto;
+    /* width: 50%; */
+    /* width: 250px; */
+    min-width: 230px;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    /* flex: 1; */
+    /* border: 1px solid red; */
+    padding: 0;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 0.5em; */
+    /* min-width: 50%; */
+
+  }
+
+  .card-title {
+    font-size: 1.3em;
+
+  }
+
+  .card-price {
+    font-size: 1em;
+
+  }
+
+  .card-btn {
+    font-size: 1em;
+    max-width: 200px;
+
+  }
+
+  .card-img {
+    height: 11em;
+    width: 11em;
+  }
+
+  .mobile-card {
+    display: flex;
+
+  }
+}
+
 @media (max-width: 430px) {
 
   .illustrations {
@@ -1324,7 +1578,7 @@ main {
 
   .mobile-nav::before {
     content: "";
-    background-image: url("C:/Users/zesha/OneDrive/Desktop/ArtRamen-Website/images/bg.png");
+    background-image: url("https://img.freepik.com/free-vector/asian-restaurant-mural-wallpaper_52683-48361.jpg?w=900&t=st=1698827104~exp=1698827704~hmac=5419a715ac486e1061c91d93195d6d06b20572eac7a6a07754f5b3fef24c3556");
     background-position-x: right;
     background-size: cover;
     width: 100%;

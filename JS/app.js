@@ -75,11 +75,14 @@ const mobileNav = document.querySelector(".mobile-nav");
 
 barIcon.addEventListener("click",()=>{
   mobileNav.style.display ="flex";
+  barIcon.style.display = "none";
   // mobileNav.style.height ="350px";
   
 });
 
 closeIcon.addEventListener("click",()=>{
   mobileNav.style.display="none";
+  barIcon.style.display = "block";
+  
   // mobileNav.style.height ="0px";
 })
