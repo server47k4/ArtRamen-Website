@@ -239,7 +239,7 @@ p {
 
   .Manufacture::before {
     content: "";
-    background: url(/images/bg.png);
+    background: url(images/bg.png);
     background-size: cover;
     opacity: 0.1;
     position: absolute;
