@@ -1360,14 +1360,12 @@ main {
     position: relative;
     width: 90%;
     margin: 0 auto;
-    /* margin-bottom: 10rem; */
     display: flex;
     margin-bottom: 1em;
 
   }
 
   #logo-info {
-    /* margin: 0; */
     width: 100%;
     font-size: 0.7rem;
   }
@@ -1377,10 +1375,6 @@ main {
     height: 2rem;
   }
 
-  main {
-    /* margin-top: 2em; */
-    /* border-right: 1px solid red; */
-  }
 
   #intro {
     flex-direction: column;
